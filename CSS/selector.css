@@ -1,0 +1,70 @@
+body {
+    background: red;
+}
+
+div.container-fluid {
+    background: #333333;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Big Shoulder Inline';
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48;
+    position: relative;
+    z-index: 10;
+}
+
+.back-button {
+    cursor: pointer;
+}
+
+.container-workout {
+    margin-top: 2rem;
+}
+
+.pageTitle {
+    background-color: white;
+    padding: 0.5rem;
+    line-height: inherit;
+}
+
+.pageTitle h1 {
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin-left: -1.2em;
+}
+
+h2.heading {
+    color: white;
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-shadow: 1px 0.5px black;;
+}
+
+.wrap-buttons {
+    padding: 0 3rem;
+}
+
+.nav-button {
+    margin-top: -4px;
+    background-image: url('../images/workout1.jpeg');
+    background-position: -2ch;
+    background-color: green;
+    color: black;
+    width: 300px;
+    height: 75px;
+    padding: 0 3rem;
+}
+
+#workout-text {
+    font-family: 'Tilt Warp', cursive;
+    font-style: bold;
+    font-size: 23px;
+    margin: 1px;
+}

@@ -1,0 +1,125 @@
+* {
+    font-family: 'Gugi';
+}
+body {
+    background: red;
+}
+
+div.container-fluid {
+    background: #333333;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Big Shoulder Inline';
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48;
+    position: relative;
+    z-index: 10;
+}
+
+.back-button {
+    cursor: pointer;
+}
+
+div.container-workout {
+    margin-top: 2rem;
+}
+
+div.pageTitle {
+    background-color: white;
+    padding: 0.5rem;
+    line-height: inherit;
+}
+
+.pageTitle h1 {
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-left: -1.2em;
+}
+
+
+div.container-statistics {
+    margin-top: 10rem;
+}
+
+.content-container {
+    padding: 0 3rem;
+}
+
+.content-container h1 {
+    text-shadow: 1px 0.5px black;
+}
+
+.content-container h2 {
+    text-shadow: 1px 0.5px black;
+}
+
+.content-container span {
+    text-shadow: 1px 0.5px black;
+}
+
+#well-done{
+    font-size: 50px;
+    color: white;
+    font-style: 'Gugi', bold;
+}
+
+#total-time{
+    color: white;
+    font-style: italic;
+    font-style: 'Gugi';
+}
+
+#time-var{
+    font-size: 35px;
+    font-style: 'Gugi';
+}
+
+.var-white{
+    color: white;
+}
+
+.var-blue{
+    color: lightblue;
+}
+
+
+.workout-buttons{
+    width: 130px;
+    height: 75px;
+    font-style: 'Gugi';
+}
+
+.nav-button {
+    color: black;
+    width: 130px;
+    height: 75px;
+    padding: 0 3rem;
+    font-style: 'Gugi';
+}
+
+
+/* VOOR CUSTOM RESPONSIVENESS */
+
+/* @media (min-width: 575.98px) DIT IS SMALL BREAKPOINT IN BOOTSTRAP{ 
+    h2.heading{
+        font-size: 10vw;
+    }
+}
+
+@media (min-width: 767.98px) DIT IS MEDIUM BREAKPOINT IN BOOTSTRAP{ 
+    h2.heading{
+        font-size: 8vw;
+    }
+}
+
+@media (min-width: 1199.98px) DIT IS XL BREAKPOINT IN BOOTSTRAP{ 
+    h2.heading{
+        font-size: 4vw;
+    }
+} */

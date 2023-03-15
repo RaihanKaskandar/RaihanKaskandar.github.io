@@ -1,0 +1,74 @@
+body {
+    background: red;
+}
+
+div.container-fluid {
+    background: #333333;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.container-workout {
+    margin-top: 5rem;
+}
+
+#page-title h1 {
+    background-color: white;
+    padding: 0.5rem;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+h2.heading {
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-shadow: 1px 0.5px black;
+}
+
+div.container-statistics {
+    margin-top: 10rem;
+}
+
+.wrap-buttons {
+    padding: 0 3rem;
+}
+
+.nav-button {
+    color: black;
+    width: 130px;
+    height: 75px;
+    padding: 0 3rem;
+    text-shadow: 1px 0.5px #333333;
+}
+ 
+#heartrate-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
+ 
+#steps-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
+
+#sleep-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
+
+#body-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
+
+#start-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
+
+#activities-text {
+    font-size: 20px;
+    font-family: 'Gugi';
+}
