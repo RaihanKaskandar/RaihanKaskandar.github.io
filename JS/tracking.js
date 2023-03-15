@@ -238,7 +238,7 @@ window.onload = function () {
 
     setInterval(updateHeartrate, 1000);
     setInterval(updateVo2, 1000);
-    setInterval(timerCounter, 60000);
+    setInterval(timerCounter, 2000);
     caloriesCounter().startCounting();
 
     setInterval(updateCaloriesBar, 1000);
